@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Script</title>
+    <style>
+        body {
+            background-color: rgb(105, 105, 173);
+            color: white; /* Comentario em CSS*/
+         }
+
+        h1 {
+            color: rgb(255, 214, 22);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo</h1> <!--isso e um comenterio-->
+    <p>Já me livrei da maldição</p>
+    <script>
+
+        var n1 = Number.parseInt(window.prompt('digite um numero:')) //string
+        var n2 = Number.parseInt(window.prompt('Digite outro numero:')) //string
+        var s = n1 + n2
+        window.alert('A soma do valores é ' + s) // concatenação
+       // (number + number) para adição
+       // ( string + string) para concatenação
+
+        var n3 = Number(window.prompt('digite um numero:')) //string
+        var n4 = Number(window.prompt('Digite outro numero:')) //string
+        var soma = n3 + n4
+        window.alert('A soma do valores é ' + string(soma)) // converter numero para string (String(n) ou n.String)
+        window.alert(`A soma entre ${n3} e ${n4} é igual a ${soma}`)
+             /*
+            > `O aluno ` + nome  +  ` com ` + idade+  ` anos tirou a nota ` + idade
+            'O aluno gustavo com 23 anos tirou a nota 23'
+            > `O aluno ${nome} com ${idade} anos tirou a nota ${idade} `
+            'O aluno gustavo com 23 anos tirou a nota 23 '-*/
+         
+
+
+
+    </script>
+
+
+
+    
+</body>
+</html>
