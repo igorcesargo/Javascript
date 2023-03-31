@@ -9,7 +9,7 @@
     <main>
         <h1>Nacionalidade</h1>
       
-        <input type="button" value="Confirmar" onclick="confirmar()">
+        <input type="button" value="Clique aqui" onclick="confirmar()">
         <div id="nac">
 
         </div>
@@ -21,10 +21,10 @@
         var nome = prompt('Digite seu país de origem')
         var nacao = document.querySelector('div#nac')                    
             nacao.innerHTML = `<p>Vivendodo nos EUA minha nacionalidade é <strong>${nome.toUpperCase()} </strong> </p>`
-            if (nome != 'EUA') {
-                nacao.innerHTML += `Você é estrangeiro`
-            } else {
+            if (nome || 'EUA, eua, Eua, EUa, euA') {
                 nacao.innerHTML += `Você é Norte Americado`
+            } else {
+                nacao.innerHTML += `Você é estrangeiro`
             }
             
         }
