@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <main>
+        <h1>Nacionalidade</h1>
+      
+        <input type="button" value="Confirmar" onclick="confirmar()">
+        <div id="nac">
+
+        </div>
+        
+    </main>
+    
+    <script>
+        function confirmar() {
+        var nome = prompt('Digite seu país de origem')
+        var nacao = document.querySelector('div#nac')                    
+            nacao.innerHTML = `<p>Vivendodo nos EUA minha nacionalidade é <strong>${nome.toUpperCase()} </strong> </p>`
+            if (nome != 'EUA') {
+                nacao.innerHTML += `Você é estrangeiro`
+            } else {
+                nacao.innerHTML += `Você é Norte Americado`
+            }
+            
+        }
+
+        
+    </script>
+</body>
+</html>
