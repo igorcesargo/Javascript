@@ -19,6 +19,13 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356);
 
 }
+div {
+    text-align: center;
+    padding: 8px;
+}
+img#imagem {
+    border-radius: 50%;
+}
 
 footer {
     color: white;
