@@ -3,4 +3,5 @@
 
  Curso JavaScript
 
- [Projetos](https://igorcesargo.github.io/javascript/exercicios/aula12/ex014.html)
+ [Projetos](https://github.com/igorcesargo/Javascript00/blob/main/exercicios/aula12/ex014.html)
+
