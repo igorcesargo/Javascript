@@ -25,3 +25,8 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+img#foto {
+    border-radius: 50%;
+    padding-top: 20px;
+}
