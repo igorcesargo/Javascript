@@ -9,4 +9,4 @@
 
 [Verificador de Idade](https://igorcesargo.github.io/Javascript/exercicios/aula12/15/ex015.html)
 
-[Vendas](https://igorcesargo.github.io/Javascript/ia/vendas/Index.html)
+[Vendas](https://igorcesargo.github.io/Javascript/ia/vendas/index.html)
