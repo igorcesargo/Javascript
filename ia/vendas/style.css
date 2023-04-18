@@ -6,6 +6,12 @@ Verde menta: #98FB98
 Lilás: #E6E6FA
 */
 
+#FFC0CB#87CEEB #FFFACD #98FB98 #E6E6FA
+
+
+
+
+
 
 * {
     margin: 0;
@@ -15,15 +21,19 @@ Lilás: #E6E6FA
 
 body {
     font-family: sans-serif;
+    background-color: #E6E6FA;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #FFC0CB;
+    color: #98FB98;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+}
+h1 {
+  text-align: center;
 }
 
 .logo a {
@@ -42,7 +52,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #98FB98;
     text-decoration: none;
     font-size: 18px;
 }
@@ -56,6 +66,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .produto {
@@ -89,15 +100,6 @@ main {
       .produto h3, .produto p {
         margin: 0;
       }
-
-
-
-
-
-
-
-
-
 
       .produtos-rolando {
         position: relative;
@@ -151,6 +153,9 @@ main {
       
       .seta-direita {
         right: 10px;
+      } 
+      footer {
+        text-align: end;
       }
 
 
