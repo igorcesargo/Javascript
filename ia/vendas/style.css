@@ -32,6 +32,10 @@ header {
     align-items: center;
     padding: 10px;
 }
+
+div.logo {
+  font-size: 10px;
+}
 section#titulo {
   width: 340px;
   background-color: #E6E6FA;
@@ -54,7 +58,8 @@ h3#artesanato {
 .logo a {
     color: #fff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 2em;
+    font-weight: bolder;
 }
 
 nav ul {
