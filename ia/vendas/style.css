@@ -32,8 +32,23 @@ header {
     align-items: center;
     padding: 10px;
 }
+section#titulo {
+  width: 340px;
+  background-color: #E6E6FA;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  
+}
 h1 {
   text-align: center;
+  font-size: 4em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+h3#artesanato {
+  text-align: end;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .logo a {
