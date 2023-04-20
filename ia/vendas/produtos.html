@@ -13,7 +13,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Produtos</a></li>
                 <li><a href="#">Carrinho</a></li>
                 <li><a href="#">Contato</a></li>
@@ -22,27 +22,41 @@
     </header>
     
     <main>
-        <div class="container">
-            <h1>Produtos</h1>
-            <div class="produto">
-                <img src="produto1.jpg" alt="Produto 1">
-                <h2>Produto 1</h2>
-                <p>R$ 50,00</p>
-                <button class="comprar" data-nome="Produto 1" data-preco="50.00">Comprar</button>
-            </div>
-            <div class="produto">
-                <img src="produto2.jpg" alt="Produto 2">
-                <h2>Produto 2</h2>
-                <p>R$ 70,00</p>
-                <button class="comprar" data-nome="Produto 2" data-preco="70.00">Comprar</button>
-            </div>
-        </div>
+
+        <button id="ordenar-por-nome">Ordenar por Nome</button>
+        <button id="ordenar-por-valor">Ordenar por Valor</button>
+        <table>
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Valor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Produto A</td>
+                <td>Descrição do Produto A</td>
+                <td>R$ 100,00</td>
+              </tr>
+              <tr>
+                <td>Produto B</td>
+                <td>Descrição do Produto B</td>
+                <td>R$ 50,00</td>
+              </tr>
+              <tr>
+                <td>Produto C</td>
+                <td>Descrição do Produto C</td>
+                <td>R$ 200,00</td>
+              </tr>
+            </tbody>
+          </table>
     </main>
     
     <footer>
         <p>Todos os direitos reservados - Site de Vendas</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="produtos.js"></script>
 </body>
 </html>
