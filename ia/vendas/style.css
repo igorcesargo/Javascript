@@ -44,6 +44,7 @@ section#titulo {
   
 }
 h1 {
+  font-family: 'Sacramento', cursive;
   text-align: center;
   font-size: 4em;
   padding-bottom: 0;
