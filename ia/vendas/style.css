@@ -6,10 +6,22 @@ Verde menta: #98FB98
 Lilás: #E6E6FA
 */
 
-#FFC0CB#87CEEB #FFFACD #98FB98 #E6E6FA
+/*#FFC0CB#87CEEB #FFFACD #98FB98 #E6E6FA8*/
 
-
-
+@font-face {
+  font-family: 'Amsterdam';
+  src: url('amsterdam_4/Amsterdam.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  /*
+  Tipos de format ()
+  - Opentype (otf)
+  - truetype (ttf)
+  - embedded-opentype
+  - truetype-aat (Apple Advanced Typography)
+  - svg
+  */
+}
 
 
 
@@ -37,26 +49,28 @@ div.logo {
   font-size: 10px;
 }
 section#titulo {
-  width: 340px;
+  width: 450px;
   background-color: #E6E6FA;
   margin: 0 auto;
   padding-bottom: 50px;
   
 }
 h1 {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Amsterdam', cursive;
   text-align: center;
   font-size: 4em;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 h3#artesanato {
+  font-family: 'Amsterdam', cursive;
   text-align: end;
   padding-top: 0;
   margin-top: 0;
 }
 
 .logo a {
+    font-family: 'Amsterdam', cursive;
     color: #fff;
     text-decoration: none;
     font-size: 2em;
