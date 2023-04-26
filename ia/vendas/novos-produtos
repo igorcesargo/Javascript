@@ -1,0 +1,32 @@
+// assume que os novos produtos estão em um array chamado "novosProdutos"
+var novosProdutos = [
+  {
+    imagem: "imagem1.jpg",
+    nome: "Novo Produto 1",
+    preco: 19.99
+  },
+  {
+    imagem: "imagem2.jpg",
+    nome: "Novo Produto 2",
+    preco: 29.99
+  },
+  // adicione mais itens aqui conforme necessário
+];
+
+var novosProdutosContainer = $(".novos-produtos");
+for (var i = 0; i < novosProdutos.length; i++) {
+  var produto = novosProdutos[i];
+  var produtoHTML = '<li>' +
+      '<img src="' + produto.imagem + '" alt="' + produto.nome + '">' +
+      '<div class="nome">' + produto.nome + '</div>' +
+      '<div class="preco">' + produto.preco + '</div>' +
+    '</li>';
+  novosProdutosContainer.append(produtoHTML);
+}
+
+// atualizar a largura do contêiner de produtos rolantes
+var larguraProdutos = $(".produtos").width() * 2; // duplicar a largura dos produtos
+$(".produtos").css("width", larguraProdutos + "px");
+
+// duplicar a lista de produtos para permitir rolagem infinita
+$(".produtos").append($(".produtos").html());
