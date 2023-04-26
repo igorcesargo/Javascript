@@ -41,5 +41,6 @@ function ordenarPorValor() {
 ordenarPorNomeButton.addEventListener('click', ordenarPorNome);
 ordenarPorValorButton.addEventListener('click', ordenarPorValor);
 
+
 // Renderiza a tabela inicialmente
 renderizarTabela();
