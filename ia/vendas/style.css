@@ -6,24 +6,14 @@ Verde menta: #98FB98
 Lilás: #E6E6FA
 */
 
-/*#FFC0CB#87CEEB #FFFACD #98FB98 #E6E6FA8*/
+
 
 @font-face {
   font-family: 'Amsterdam';
   src: url('amsterdam_4/Amsterdam.ttf') format('opentype');
   font-weight: normal;
-  font-style: normal;
-  /*
-  Tipos de format ()
-  - Opentype (otf)
-  - truetype (ttf)
-  - embedded-opentype
-  - truetype-aat (Apple Advanced Typography)
-  - svg
-  */
+  font-style: normal;  
 }
-
-
 
 * {
     margin: 0;
@@ -44,43 +34,36 @@ header {
     padding: 10px;
 }
 
-
-
 section#titulo {
-  width: 356px;
+  width: 212px;
   background-color: #E6E6FA;
   margin: 0 auto;
-  padding-bottom: 50px;
-  
+  padding-bottom: 50px;  
 }
 h1 {
   font-family: 'Amsterdam', cursive;
   text-align: center;
   font-size: 3em;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
+
 h3#artesanato {
   font-family: 'Amsterdam', cursive;
   text-align: end;
-  font-size: 1.5em;
-
-
-  padding-top: 0;
-  margin-top: 0;
-
-
   
+
+  padding-top: 0px;
+  margin-top: 0px;  
 }
 
 .logo a {
     font-family: 'Amsterdam', cursive;
     color: #fff;
     text-decoration: none;
-    font-size: 2em;
+    font-size: .5em;
     font-weight: bolder;
 }
-
 
 nav ul {
     display: flex;
@@ -95,7 +78,6 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;font-weight: 600;
-
 }
 
 main {
@@ -112,30 +94,28 @@ main {
 }
 
 section#destaque > div.container > div.produto {
-  flex: 0 0 50px;
+  flex: 11 0 60px;
   background-color: #f5f5f5;
     margin: 10px;
     padding: 0px;
     border-radius: 5px;
-    box-shadow: 0 5px 10px ;    
-     
+    box-shadow: 0 5px 10px ;         
 }
 
 section#barra-rolagem > div.produtos-rolando > div.produtos > div.produto {
     background-color: #f5f5f5;
-    margin: 20px;
+    margin: 10px;
     padding: 0px;
     border-radius: 5px;
     box-shadow: 0 5px 10px ;
-    flex: 0 0 190px;
-   
+    flex: 0 0 90px;   
   }
 
     .img {
       padding: 0;
     }
     .detalhe {
-      padding: 20px;
+      padding: 5px 0px;
     }
 
     .produtos-rolando {
@@ -163,10 +143,8 @@ section#barra-rolagem > div.produtos-rolando > div.produtos > div.produto {
         display: flex;
         flex-wrap: nowrap;
         transition: all 0.5s ease;
-      }
-      
-      
-      
+      }   
+            
       .produto img {
         max-width: 100%;
         height: auto;
@@ -174,7 +152,10 @@ section#barra-rolagem > div.produtos-rolando > div.produtos > div.produto {
       
       .produto h3, .produto p {
         margin: 0;
+        padding: 3px;
       }
+
+     
       
       .seta {
         position: absolute;
@@ -206,11 +187,6 @@ section#barra-rolagem > div.produtos-rolando > div.produtos > div.produto {
       footer {
         text-align: end;
       }
-
-
-
-
-
 
       .carousel {
         position: relative;
