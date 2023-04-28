@@ -4,7 +4,7 @@ $(document).ready(function() {
   var setaEsquerda = $(".seta-esquerda");
   var setaDireita = $(".seta-direita");
 
-  var passoRolagem = 420; // ajuste a quantidade de pixels a ser rolada de cada vez
+  var passoRolagem = 320; // ajuste a quantidade de pixels a ser rolada de cada vez
 
   // duplicar a lista de produtos para permitir rolagem infinita
   produtos.append(produtos.html());

@@ -21,9 +21,7 @@ Lilás: #E6E6FA
     box-sizing: border-box;
 }
 
-body {    
-    background-color: #E6E6FA;
-}
+
 
 header {
     background-color: #FFC0CB;
@@ -81,7 +79,8 @@ nav ul li a {
 
 main {
     padding: 50px;
-    font-size: 0.6em;
+    font-size: 0.6em;    
+    background-color: #E6E6FA;   
 }
 
 .container{
@@ -91,11 +90,11 @@ main {
 }
 
 section#destaque > div.container > div.produto {
-  width: 150px;  
+  width: 250px;  
   background-color: #f5f5f5;
   margin: 10px;
   padding: 0px;
-  border-radius: 0px;
+  border-radius: 5px;
   box-shadow: 0 5px 10px ;         
 }
 
@@ -112,11 +111,17 @@ section#barra-rolagem > div.produtos-rolando > div.produtos > div.produto {
   padding: 5px 0px;
 }
 
+.container button {
+  height: 45px;
+}
+
 .produtos-rolando {
   width: 100%;
   overflow-x: hidden;
   white-space: nowrap;
   position: relative;
+  padding-bottom: 80px;
+
 }          
       
 .produto h3, .produto p {
@@ -130,10 +135,16 @@ section#barra-rolagem > div.produtos-rolando > div.produtos > div.produto {
   flex-wrap: nowrap;
   transition: all 0.5s ease;
 }   
+
+.produtos-rolando button {
+  width: 101%;
+  height: 30px;
+  margin: auto;
+}
             
 img  {
   max-width: 100%;
-  align-items: center;
+ 
   
 }
             
@@ -164,6 +175,35 @@ img  {
 .seta-direita {
   right: 10px;
 } 
+
+.carrinho {
+  font-size: 2em;
+  background-color: #98FB98;
+  width: 300px;
+  margin: auto;
+  padding: 5px;    
+}
+
+.carrinho h3 {
+  text-align: center;
+  background-color: #87CEEB;
+  padding-bottom: 5px;
+}
+
+.itens,  .carrinho p {
+ list-style: none;
+ padding-left: 5px;
+}
+
+.carrinho p {
+  padding-bottom: 5px;
+}
+
+.enviar-whatsapp {  
+  width: 100%;
+  height: 30px;
+}
+
 footer {
   text-align: center;
 }
